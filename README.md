@@ -1,7 +1,7 @@
 # go-certificate-extractor
 A tool for extracting certificates and keys from a p12 store when OpenSSL is not available. Mainly useful for Windows systems that do not already have OpenSSL and where user does not have privileges to install it.
 
-:warning: NOTE: all the below instructions are mainly aimed at Windows users. As such also all commands provided are intended to be used with Powershell. When using a different shell the syntax of some of the commands may change slightly. 
+:warning: **NOTE:** all the below instructions are mainly aimed at Windows users. As such also all commands provided are intended to be used with Powershell. When using a different shell the syntax of some of the commands may change slightly. 
 
 Also note that anyone using Linux can achieve the same things with OpenSSL (which comes installed with any reasonable distribution) in a much easier way using native OpenSSL commands. Even Windows users that are able to install OpenSSL would be in principle better served using that. This tool therefore is chiefly aimed at Windows users that are unable to obtain OpenSSL due to system restrictions of some kind.
 
