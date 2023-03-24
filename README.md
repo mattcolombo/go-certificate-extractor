@@ -15,6 +15,8 @@ This tool will read a p12 formatted certificate store, extract the certificate a
 
 ## How to use
 
+First of all download the `go-certificate-extractor_windows_amd64_vN_n.exe` file from the release page in Github (found under this main [Github page](https://github.com/mattcolombo/go-certificate-extractor)) and save it wherever it is best convenient on the disk. For the commands below to work out of the box, it's best to also rename the `.exe` file to simply `go-certificate-extractor.exe`. If not, please adjust the below commands to reflect the name of the file.
+
 To run the tool navigate to the folder where you wish to store the output and run the below command
 ```(Powershell)
 \path\to\go-certificate-extractor.exe <\path\to\p12file> <common name> <p12 store password>
